@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "cf723d85-c669-42fa-a332-e2ab83b1c88e", // The ID of this integration.
+          region: "us-east", // The region your integration is hosted in.
+          serviceInstanceID: "4dda238d-bcac-45b4-aba5-c39fb7958bcf", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                  <a href="index.html" class="pull-left visible-md visible-lg">
+                    <div id="logo-img"></div>
+                  </a>
+        
+                  <div class="navbar-brand">
+                    <a href="index.html"><h1 id="title">JustClean</h1></a>
+                  </div>
+        
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                   <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li>
+                      <a href="menu-categories.html">
+                        <!-- <span class="glyphicon glyphicon-cutlery"></span> -->
+                        <br class="hidden-xs"> Services</a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <!-- <span class="glyphicon glyphicon-info-sign"></span> -->
+                        <br class="hidden-xs"> Contact</a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <!-- <span class="glyphicon glyphicon-certificate"></span> -->
+                        <br class="hidden-xs"> Reach Us</a>
+                    </li>
+                  </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+              </div><!-- .container -->
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello! Welcome to</div>
+                <div class="text-2">JustClean Dry Cleaners</div>
+                <div class="text-3">We <span>wash</span></div>
+            </div>
+        </div>
+    </section>
+    <div class="content">
+
+        <img class="img" src="img/logo.png" alt="logo" width="20%">
+        <hr width="50%">
+
+        <h1 class="head">JUST CLEAN</h1>
+        <h3 class="sub">DRY CLEANERS</h3>
+        <button class="button">login</button>
+        <button class="button">register</button>
+    </div>
+    <hr>
+    <div style="text-align:center">
+
+        **********************************************
+    </div>
+    <hr>
+    <div>
+        Servies
+        <ul>
+            <li>Washing</li>
+            <li>Ironing</li>
+            <li>Dry-cleaning</li>
+        </ul>
+        <ul>
+
+        </ul>
+    </div>
+    <footer class="footer">Contact : +91 788 768 7588 | Mail : jcdc@ymail.com</footer>
+</body>
+
+</html>

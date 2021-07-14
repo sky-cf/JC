@@ -1,0 +1,13 @@
+header{
+    position: fixed;
+}
+header #header-nav{
+    background: fixed crimson;
+}
+#title{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
